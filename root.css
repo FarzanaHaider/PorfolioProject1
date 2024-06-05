@@ -9,15 +9,19 @@
     
     *{
         margin: 0;
-        padding: 10px 30px;
+        /* padding: 10px 30px; */
         font-family: "Antonio", sans-serif;
         font-weight: 100;
-        font-size: 36px;
         color: var(--font-primary-color);
+    }
+
+    .container{
+        padding: 10px 30px;
     }
     
     body{
         background-color: var(--background-color); 
+        font-size: 30px;
     }
     
     .container {
