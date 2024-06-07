@@ -2,6 +2,8 @@
     padding: 70px 170px;
 }
 
+/* header section starts */
+
 .header-container{
     display: flex;
     justify-content: center;
@@ -32,13 +34,17 @@
 .cv{
     background-color: var(--font-secondary-color);
 }
+/* header section ends */
 
-.name{
+/* banner section starts */
+.name {
     text-align: left;
+    width: 60%;
 }
 
-.name p{
+.name p {
     padding: 30px 0;
+    text-align: justify;
 }
 
 .intro-list a{
@@ -47,15 +53,19 @@
 
 .intro-list ul {
     padding: 0px;
+    display: flex;
+    column-gap: 30px;
 }
 
 .button1 {
     border: 2px solid white;
-    width: 280px;
+    width: 300px;
     height: 51px;
     margin: 30px 0;
     border-radius: 40px;
     display: flex;
+    background-color: rgb(180, 180, 180, 0.3);
+    font-size: 25px;
 }
 
 .button1 button{
@@ -64,13 +74,27 @@
     text-align: center;
     text-decoration: none;
     height: 45px;
-    width: 160px;
+    width: 152px;
     border-radius: 22px;
     margin: 3px;
 }
 
-.button1 p {
-    padding: 4px 18px;
+.button1 button p {
+    padding: 4px 7px;
+    font-size: 25px;
+}
+
+.portfolio{
+    display: flex;
+}
+
+.portfolio svg.size-6 {
+    height: 40px;
+    width: 40px;
+}
+
+.hire-me p {
+    padding: 10px 27px;
 }
 
 .social-media ul {
@@ -80,6 +104,333 @@
 .social-media a {
     text-decoration: none;
 }
+
+.introduction .my-image img {
+    border: 3px solid #FD6F00;
+    border-radius: 50%;
+    width: 400px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-scale {
+    background-color: black;
+    width: 105vw;
+    position: relative;
+    left: 42%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-sizing: border-box;
+    padding: 40px 40px;
+    padding-left: 0px;
+    transform: rotate(-3.97deg);
+}
+
+.skill-scale ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-scale ul a {
+    text-decoration: none;
+    font-size: 32px;
+}
+/* banner section ends */
+
+/* About me section starts */
+
+.myself {
+    padding-top: 180px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myself p {
+    padding: 20px 0px;
+    text-align: justify;
+}
+
+.interest {
+    width: 60%;
+}
+
+.five-star img{
+    height: 32px;
+    width: 32px;
+}
+
+.five-star a{
+    text-decoration: none;
+}
+
+.\31 0years-exp h2 {
+    padding-top: 21px;
+}
+
+.\31 0years-exp p {
+    padding-top: 0px;
+    text-align: right;
+    padding-right: 9px;
+}
+
+.my-experience {
+    background-color: rgb(50, 38, 40);
+    width: 98vw;
+    position: relative;
+    left: -163px;
+}
+
+.para-company {
+    padding: 95px 161px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-tag {
+    padding: 40px 0px;
+}
+
+.date-company {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.para {
+    width: 40%;
+}
+
+.company-tag {
+    width: 40%;
+}
+
+.each-tag {
+    padding: 40px;
+    border-bottom: 1px solid;
+}
+
+.para h2 {
+    padding: 16px 0px;
+}
+
+.award h2 {
+    text-align: center;
+    padding: 100px;
+}
+
+.rank-comp-name {
+    background-color: black;
+    margin: 30px 0px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rank {
+    width: 70%;
+}
+
+.rank h3 {
+    padding: 20px 0px;
+}
+
+/* About me section ends */
+
+/* Portfolio section starts */
+
+.portfolio-top {
+    padding: 100px 0px 60px 0px;
+    text-align: center;
+}
+
+.portfolio-top p {
+    padding: 20px;
+}
+
+.portfolio-menu-block {
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+}
+
+.portfolio-menu {
+    width: 767px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.project-desc {
+    width: 58%;
+}
+
+.project-image {
+    width: 40%;
+}
+
+.project-desc h2 {
+    padding: 35px 0px;
+}
+
+.project2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px;
+    flex-direction: row-reverse;
+}
+
+/* Portfolio section ends */
+
+/* Contact section starts */
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgb(50, 38, 40);
+    margin-bottom: 40px;
+}
+
+.contact-form{
+    background-color: rgb(50, 38, 40);
+    padding: 100px;
+}
+
+input#lemail {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgb(50, 38, 40);
+    margin-bottom: 40px;
+};
+
+input#fname {
+    width: 40%;
+}
+
+.contact-top {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-top h2 {
+    padding: 40px 0px;
+}
+
+.any-project h2 {
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+
+.button2 button {
+    background-color: #FD6F00;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Contact section ends */
+
+/* bottom section starts */
+
+section.bottom {
+    background-color: black;
+    padding: 100px 0;
+    width: 98vw;
+    position: relative;
+    left: -166px;
+}
+    
+    .logo {
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .bottom-menu ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bottom-menu a {
+        text-decoration: none;
+    }
+    
+    .bottom-menu {
+        padding: 40px 0;
+    }
+    
+    .bottom-social-media {
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    .bottom-social-media ul {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer p {
+        text-align: center;
+        padding-top: 37px;
+    }
+}
+
+.logo {}
+
+.logo {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.bottom-menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-menu a {
+    text-decoration: none;
+}
+
+.bottom-menu {
+    padding: 40px 0;
+}
+
+.bottom-social-media {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bottom-social-media ul {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 37px;
+}
+
+/* bottom section ends */
 
 /*This is media query*/
 @media only screen and (min-width:200px) and (max-width:576px) {
