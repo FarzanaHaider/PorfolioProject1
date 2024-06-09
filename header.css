@@ -392,9 +392,6 @@ section.bottom {
         text-align: center;
         padding-top: 37px;
     }
-}
-
-.logo {}
 
 .logo {
     text-align: center;
@@ -412,6 +409,8 @@ section.bottom {
 
 .bottom-menu {
     padding: 40px 0;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .bottom-social-media {
@@ -434,5 +433,171 @@ footer p {
 
 /*This is media query*/
 @media only screen and (min-width:200px) and (max-width:576px) {
+
+    .container {
+        padding: 20px 40px;
+    }
+
+    .logo-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    header.header-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .list-item-section {
+        width: auto;
+    }
+    
+    .list-items a {
+        font-size: 10px;
+        margin: 5px;
+    }
+    
+    .introduction {
+        flex-direction: column;
+    }
+    
+    .name {
+        width: 100%;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    body {
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    .intro-list ul {
+        column-gap: 0px;
+    }
+    
+    .intro-list img {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .introduction .my-image img {
+        width: 100%;
+    }
+    
+    .my-image {
+        padding: 30px 10px;
+    }
+
+    .skill-scale {
+        transform: rotate(0deg);
+        position: static;
+        width: 100%;
+        margin: auto 0px;
+    }
+    
+    .skill-scale ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .myself {
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    
+    .interest {
+        width: fit-content;
+    }
+    
+    .\31 0years-exp h2 {
+        display: inline-block;
+    }
+    
+    .\31 0years-exp p {
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    .para-company {
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+    
+    .my-experience {
+        width: 100%;
+        left: -40px;
+        padding: 40px;
+    }
+    
+    .para {
+        width: 100%;
+    }
+    
+    .company-tag {
+        width: 100%;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    .rank-comp-name {
+        flex-direction: column;
+        padding: 10px;
+        gap: 25px;
+    }
+    
+    .portfolio-menu {
+        flex-direction: column;
+        width: 200px;
+        gap: 20px;
+    }
+    
+    .project {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .project-image {
+        width: fit-content;
+    }
+    
+    .project-image img {
+        width: 100%;
+    }
+    
+    .project-desc {
+        width: 100%;
+    }
+    
+    .project2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .contact-form {
+        padding: 30px;
+    }
+    
+    section.bottom {
+        left: -34px;
+    }
+
+    .bottom-menu {
+        width: 100%;
+    }
+    
+    .bottom-menu ul {
+        width: fit-content;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer p {
+        padding-top: 20px;
+    }
 
 }
